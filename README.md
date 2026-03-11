@@ -1,10 +1,10 @@
-# 📘 Test-TFE Sharing Codes
+# Test-TFE Sharing Codes
 
 This repository contains a set of Jupyter notebooks developed to evaluate, optimize, and compare CSP (Concentrated Solar Power) tower layouts and grouping strategies around a power block. The goal is to minimize piping lengths while exploring different grouping constraints.
 
 ---
 
-## 📂 Repository Content
+## Repository Content
 
 ### 1) towers_layout_groups.ipynb
 
@@ -36,7 +36,7 @@ It computes:
 
 ---
 
-## 🎯 Purpose of This Repository
+## Purpose of This Repository
 
 This repository serves as a shared workspace to:
 
@@ -46,20 +46,7 @@ This repository serves as a shared workspace to:
 
 ---
 
-## 🧭 Future Work Suggestions
+## License
 
-- Add visualization tools for comparing layouts side-by-side.
-- Integrate time-limited search or stochastic optimization (e.g., simulated annealing).
-- Benchmark additional grouping constraints (vertical, radial, capacity-based, etc.).
-
----
-
-## 📄 License
-
-This repository is provided for academic and research use.  
-If you intend to use it for commercial or industrial purposes, please clarify licensing terms with the author.
-
----
-
-If you need help improving or expanding this repository, feel free to ask! 🚀
+see LICENSE
    
