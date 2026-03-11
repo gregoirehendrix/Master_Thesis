@@ -7,14 +7,12 @@ Repository test to share notebooks
    Calculates the following elements:
    - Best layout possible of the CSP units around the power block to minimize the piping
    - Finds the best way to group multiple CSP to reduce the piping
-   - Has no constraint on the grouping, is done it what is supposed to b the most optimal way for smaller CSP units per Power Block, for larger amount, it is not powerfull enough to be precise
-   - Computes the piping length of each piping diametre
+   - Has no constraint on the grouping, this code is supposed to bring the best results for grouping, but it is not alway true, that is why there is the "towers_layout_groups_horizontal.ipynb" code to compare
 
 2) towers_layout_groups_horizontal.ipynb
    Calculated the following elements:
    - Best layout possible of the CSP units around the power block to minimize the piping
    - Finds the best way to group multiple CSP to reduce the piping
-   - **HAS A CONSTRAINT** on grouping, all groups mut be horizontal, provides betters results for larger amounts of CSP per power block (>50 units per PB)
-   - Computes the piping length of each piping diametre
+   - **HAS A CONSTRAINT** on grouping, all groups mut be horizontal, for some reasons, this code sometimes provides better results than the other one
    
    
