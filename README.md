@@ -48,5 +48,5 @@ This repository serves as a shared workspace to:
 
 ## License
 
-see LICENSE
+see [LICENSE](LICENSE)
    
