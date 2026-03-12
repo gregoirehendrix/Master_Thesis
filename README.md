@@ -1,4 +1,4 @@
-# Test-TFE Sharing Codes
+# Repository to share codes for Master Thesis
 
 This repository contains a set of Jupyter notebooks developed to evaluate, optimize, and compare CSP (Concentrated Solar Power) tower layouts and grouping strategies around a power block. The goal is to minimize piping lengths while exploring different grouping constraints.
 
