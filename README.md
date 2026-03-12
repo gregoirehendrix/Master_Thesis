@@ -6,7 +6,7 @@ This repository contains a set of Jupyter notebooks developed to evaluate, optim
 
 ## Repository Content
 
-### 1) towers_layout_groups.ipynb
+### 1) [towers_layout_groups.ipynb](towers_layout_groups.ipynb)
 
 This notebook computes optimized layouts and grouping of CSP units **without grouping constraints**.
 
@@ -20,7 +20,7 @@ It performs two main tasks:
 
 ---
 
-### 2) towers_layout_groups_horizontal.ipynb
+### 2) [towers_layout_groups_horizontal.ipynb](towers_layout_groups_horizontal.ipynb)
 
 This notebook performs the same optimization tasks but includes an additional constraint:
 
