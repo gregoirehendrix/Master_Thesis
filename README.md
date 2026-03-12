@@ -6,8 +6,10 @@ This repository contains a set of Jupyter notebooks developed to evaluate, optim
 ## How to run the codes ?
 1) Open the code you want to run by clicking on the file in the repository.
 2) Click on the "Open in colab" logo, see image of the logo below.
+   
    ![Open in Colab](open_in_colab_logo.png)
-4) Click on the play buton on the top left of the page like shown in the image below.
+3) Click on the play buton on the top left of the page like shown in the image below.
+   ![fleche](fleche.png)
 5) Click on "Run Anyway", this message is shown because a file from github is opened in Google, it is not an error message.
 6) You will be asked to put some inputs like "Amount of CSP unit per power block", type in a number then press enter.
 7) Do this with all inputs.
