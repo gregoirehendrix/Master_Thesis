@@ -46,6 +46,8 @@ It computes:
 
 - **Optimal CSP layout** around the power block (minimizing pipe length).
 - **Grouping of CSP units with a horizontal-only constraint**.
+- **Average length** of piping from tower to PB
+- **Root Mean Square** of length to have a better representation to compute losses in external thermodynamic model
 
 ---
 
