@@ -51,6 +51,19 @@ It computes:
 
 ---
 
+### 3) [piping_losses.ipynb](piping_losses.ipynb)
+This notebook extends the layout optimisation with a **cascaded thermal loss model** for the molten salt piping network.
+
+It computes:
+- **Per-pipe thermal losses** using an NTU-based energy model, propagated from leaves to power block
+- **Adiabatic mixing** at every junction node, so the outlet temperature of each branch becomes the inlet temperature of the next segment
+- **Final mixed salt temperature at the power block inlet**, after combining all hub flows
+- **Per-hub breakdown** of pipe lengths by diameter class (`1 1/4"`, `2"`, `2 1/2"`, `3"`)
+
+> The diameter of each pipe segment is determined by the number of CSP units it carries (thermal load), and the mass flow rate scales accordingly. The model accounts for the progressive temperature drop along each branch and the flow-weighted mixing at junctions.
+
+---
+
 ## Purpose of This Repository
 
 This repository serves as a shared workspace to:
