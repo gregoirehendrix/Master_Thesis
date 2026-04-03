@@ -64,6 +64,19 @@ It computes:
 
 ---
 
+### 4) [drainage.ipynb](drainage.ipynb)
+
+This notebook estimates the **gravity-driven drainage time** of molten salt piping.
+
+It computes the drainage time of a pipe section based on pipe diameter, slope, length and salt temperature, assuming a **partially filled pipe** and steady open-channel flow.
+
+The model uses:
+- Darcy–Weisbach formulation
+- Colebrook–White correlation for friction
+- Temperature-dependent properties of Solar Salt
+
+---
+
 ## Purpose of This Repository
 
 This repository serves as a shared workspace to:
